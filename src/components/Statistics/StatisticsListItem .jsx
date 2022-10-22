@@ -5,9 +5,9 @@ import {
   StatisticListPercent,
 } from './Statistics.styled';
 
-export const StatisticsListItem = ({ id, label, percentage }) => {
+export const StatisticsListItem = ({ label, percentage }) => {
   return (
-    <StatisticListItems key={id}>
+    <StatisticListItems>
       <StatisticListLab>{label}</StatisticListLab>
       <StatisticListPercent>{percentage}</StatisticListPercent>
     </StatisticListItems>
@@ -15,7 +15,6 @@ export const StatisticsListItem = ({ id, label, percentage }) => {
 };
 
 StatisticsListItem.propTypes = {
-  id: PropTypes.string.isRequired,
   labe: PropTypes.string,
   percentage: PropTypes.number,
 };
