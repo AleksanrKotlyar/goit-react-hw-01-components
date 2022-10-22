@@ -7,16 +7,16 @@ export const TransactionTable = styled.table`
 `;
 
 export const TableHead = styled.thead`
+  text-transform: uppercase;
   background-color: ${p => p.theme.colors.tableHeader};
   border: ${p => p.theme.borders.normal};
   border-color: ${p => p.theme.colors.textDark};
-  text-transform: uppercase;
 `;
 
 export const TableHeadTH = styled.th`
   padding-top: ${p => p.theme.space[3]}px;
   padding-bottom: ${p => p.theme.space[3]}px;
-  font-weight: ${p => p.theme.fontWeigth.normal};
+  font-weight: ${p => p.theme.fontWeigth.bold};
   font-size: ${p => p.theme.fontSizes.xs}px;
   color: ${p => p.theme.colors.card};
   border: ${p => p.theme.borders.normal};
@@ -24,12 +24,12 @@ export const TableHeadTH = styled.th`
 `;
 
 export const TableTd = styled.th`
+  text-transform: capitalize;
   padding-top: ${p => p.theme.space[3]}px;
   padding-bottom: ${p => p.theme.space[3]}px;
   font-weight: ${p => p.theme.fontWeigth.normal};
   font-size: ${p => p.theme.fontSizes.s}px;
   border: ${p => p.theme.borders.normal};
-  text-transform: capitalize;
 `;
 
 export const TableTr = styled.tr`

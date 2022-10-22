@@ -1,4 +1,3 @@
-
 import styled from 'styled-components';
 
 export const StatisticsContainer = styled.section`
@@ -24,8 +23,8 @@ export const StatisticsList = styled.ul`
 
 export const StatisticListItems = styled.li`
   color: ${p => p.theme.colors.card};
-  background-color: ${() => getRandomColor()};
   padding-top: ${p => p.theme.space[3]}px;
+  background-color: ${() => getRandomColor()};
   padding-bottom: ${p => p.theme.space[3]}px;
   display: flex;
   flex-direction: column;
