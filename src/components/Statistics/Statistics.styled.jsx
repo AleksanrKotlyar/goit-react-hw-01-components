@@ -1,4 +1,5 @@
-import styled from '@emotion/styled';
+// import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const StatisticsContainer = styled.section`
   margin-top: ${p => p.theme.space[5]}px;

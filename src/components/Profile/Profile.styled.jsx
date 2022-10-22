@@ -1,4 +1,5 @@
-import styled from '@emotion/styled';
+// import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -26,6 +27,7 @@ export const Picture = styled.img`
   margin-right: auto;
   width: 70px;
   height: 70px;
+  border-radius: ${p => p.theme.radii.round};
   margin-bottom: ${p => p.theme.space[4]}px;
 `;
 
