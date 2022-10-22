@@ -29,7 +29,6 @@ export const TableTd = styled.th`
   font-weight: ${p => p.theme.fontWeigth.normal};
   font-size: ${p => p.theme.fontSizes.s}px;
   border: ${p => p.theme.borders.normal};
-  border-color: ${p => p.theme.colors.textDark};
   text-transform: capitalize;
 `;
 
